@@ -3,9 +3,25 @@
     <head>
     <meta charset="UTF-8">
     <title=Classroom Survey></title>
-
+<link ref="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1 id="title">Classroom Management Survey</h1>
+    <p id="first">Please fill out the following information below:</p>
+    <fieldset>
+        <form id="demographics">
+        <label for="fname"><input type="text" name="fname" id="fname" placeholder="First Name" required></label>
+        <label for="lname"><input type="text" name="lname" id="lname" placeholder="Last Name" required></label>
+        <label for="email"><input type="email" name="email" id="email" placeholder="Email" required></label>
+        <select id="dropdown" name="dropdown">
+            <option value="">(Select who you are evaluating)</option>
+            <option value="1">Mr. Smith</option>
+            <option value="2">Ms. Jones</option>
+            <option value="3">Mr. Williams</option>
+            <option value="4">Ms. Edwards</option>
+          </select>
+    </fieldset>
+</form>
 
 </body>
 </html>
